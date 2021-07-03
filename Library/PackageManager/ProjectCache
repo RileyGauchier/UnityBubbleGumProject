@@ -5,21 +5,385 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637603256803788294
-    m_Hash: 2003956774
+      ticks: 637608715240462961
+    m_Hash: 3979579646
   m_LockFileStatus:
     m_FilePath: E:/Unity/PersonalCasualProject/ProjectBubbleGum/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637603256883857655
-    m_Hash: 2889151785
+      ticks: 637608715241009349
+    m_Hash: 3106650384
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.addressables@1.16.19
+      testable: 0
+      isDirectDependency: 1
+      version: 1.16.19
+      source: 1
+      resolvedPath: E:\Unity\PersonalCasualProject\ProjectBubbleGum\Library\PackageCache\com.unity.addressables@1.16.19
+      assetPath: Packages/com.unity.addressables
+      name: com.unity.addressables
+      displayName: Addressables
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'The Addressable Asset System allows the developer to ask for
+        an asset via its address. Once an asset (e.g. a prefab) is marked "addressable",
+        it generates an address which can be called from anywhere. Wherever the asset
+        resides (local or remote), the system will locate it and its dependencies,
+        then return it.
+
+
+        Use ''Window->Asset Management->Addressables''
+        to begin working with the system.
+
+
+        Addressables use asynchronous
+        loading to support loading from any location with any collection of dependencies.
+        Whether you have been using direct references, traditional asset bundles,
+        or Resource folders, addressables provide a simpler way to make your game
+        more dynamic. Addressables simultaneously opens up the world of asset bundles
+        while managing all the complexity.
+
+
+        For usage samples, see github.com/Unity-Technologies/Addressables-Sample'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.8-preview
+        - 0.0.12-preview
+        - 0.0.15-preview
+        - 0.0.16-preview
+        - 0.0.18-preview
+        - 0.0.22-preview
+        - 0.0.26-preview
+        - 0.0.27-preview
+        - 0.1.2-preview
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.3.5-preview
+        - 0.4.6-preview
+        - 0.4.8-preview
+        - 0.5.2-preview
+        - 0.5.3-preview
+        - 0.6.6-preview
+        - 0.6.7-preview
+        - 0.6.8-preview
+        - 0.7.4-preview
+        - 0.7.5-preview
+        - 0.8.4-preview
+        - 0.8.6-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5
+        - 1.1.7
+        - 1.1.9
+        - 1.1.10
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.3
+        - 1.3.8
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.2
+        - 1.7.4
+        - 1.7.5
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.9.2
+        - 1.10.0
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.2
+        - 1.15.1
+        - 1.16.1
+        - 1.16.6
+        - 1.16.7
+        - 1.16.8
+        - 1.16.10
+        - 1.16.12
+        - 1.16.13
+        - 1.16.15
+        - 1.16.16
+        - 1.16.19
+        - 1.17.0-preview
+        - 1.17.2-preview
+        - 1.17.4-preview
+        - 1.17.5-preview
+        - 1.17.6-preview
+        - 1.17.13
+        - 1.17.15
+        - 1.17.17
+        - 1.18.2
+        - 1.18.4
+        - 1.18.9
+        - 1.18.11
+        compatible:
+        - 0.0.8-preview
+        - 0.0.12-preview
+        - 0.0.15-preview
+        - 0.0.16-preview
+        - 0.0.18-preview
+        - 0.0.22-preview
+        - 0.0.26-preview
+        - 0.0.27-preview
+        - 0.1.2-preview
+        - 0.2.1-preview
+        - 0.2.2-preview
+        - 0.3.5-preview
+        - 0.4.6-preview
+        - 0.4.8-preview
+        - 0.5.2-preview
+        - 0.5.3-preview
+        - 0.6.6-preview
+        - 0.6.7-preview
+        - 0.6.8-preview
+        - 0.7.4-preview
+        - 0.7.5-preview
+        - 0.8.4-preview
+        - 0.8.6-preview
+        - 1.1.3-preview
+        - 1.1.4-preview
+        - 1.1.5
+        - 1.1.7
+        - 1.1.9
+        - 1.1.10
+        - 1.2.2
+        - 1.2.3
+        - 1.2.4
+        - 1.3.3
+        - 1.3.8
+        - 1.4.0
+        - 1.5.0
+        - 1.5.1
+        - 1.6.0
+        - 1.6.2
+        - 1.7.4
+        - 1.7.5
+        - 1.8.3
+        - 1.8.4
+        - 1.8.5
+        - 1.9.2
+        - 1.10.0
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.2
+        - 1.15.1
+        - 1.16.1
+        - 1.16.6
+        - 1.16.7
+        - 1.16.8
+        - 1.16.10
+        - 1.16.12
+        - 1.16.13
+        - 1.16.15
+        - 1.16.16
+        - 1.16.19
+        - 1.17.0-preview
+        - 1.17.2-preview
+        - 1.17.4-preview
+        - 1.17.5-preview
+        - 1.17.6-preview
+        - 1.17.13
+        - 1.17.15
+        - 1.17.17
+        - 1.18.2
+        - 1.18.4
+        - 1.18.9
+        - 1.18.11
+        verified: 1.16.19
+      dependencies:
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.15.2
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.scriptablebuildpipeline
+        version: 1.15.2
+      - name: com.unity.modules.assetbundle
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequest
+        version: 1.0.0
+      - name: com.unity.modules.unitywebrequestassetbundle
+        version: 1.0.0
+      keywords:
+      - asset
+      - resources
+      - bundle
+      - bundles
+      - assetbundles
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637541127300000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+        revision: 409be64ae2451fbde6a6e3e6fb1d6b7a1aa9a18c
+        path: 
+    - packageId: com.unity.cinemachine@2.6.5
+      testable: 0
+      isDirectDependency: 1
+      version: 2.6.5
+      source: 1
+      resolvedPath: E:\Unity\PersonalCasualProject\ProjectBubbleGum\Library\PackageCache\com.unity.cinemachine@2.6.5
+      assetPath: Packages/com.unity.cinemachine
+      name: com.unity.cinemachine
+      displayName: Cinemachine
+      author:
+        name: 
+        email: 
+        url: 
+      category: cinematography
+      type: 
+      description: "Smart camera tools for passionate creators. \n\nIMPORTANT NOTE:
+        If you are upgrading from the Asset Store version of Cinemachine, delete
+        the Cinemachine asset from your project BEFORE installing this version from
+        the Package Manager."
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 2.1.11-beta.1
+        - 2.1.12
+        - 2.1.13
+        - 2.2.0
+        - 2.2.7
+        - 2.2.8
+        - 2.2.9
+        - 2.2.10-preview.3
+        - 2.2.10-preview.4
+        - 2.3.1
+        - 2.3.3
+        - 2.3.4
+        - 2.3.5-preview.3
+        - 2.4.0-preview.3
+        - 2.4.0-preview.4
+        - 2.4.0-preview.6
+        - 2.4.0-preview.7
+        - 2.4.0-preview.8
+        - 2.4.0-preview.9
+        - 2.4.0-preview.10
+        - 2.4.0
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        compatible:
+        - 2.5.0
+        - 2.6.0-preview.2
+        - 2.6.0-preview.3
+        - 2.6.0-preview.5
+        - 2.6.0-preview.8
+        - 2.6.0
+        - 2.6.1-preview.6
+        - 2.6.1
+        - 2.6.2-preview.1
+        - 2.6.2
+        - 2.6.3-preview.2
+        - 2.6.3
+        - 2.6.4
+        - 2.6.5
+        - 2.7.1
+        - 2.7.2
+        - 2.7.3
+        - 2.7.4
+        - 2.8.0-exp.1
+        - 2.8.0-exp.2
+        - 2.8.0-pre.1
+        verified: 2.6.5
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - camera
+      - follow
+      - rig
+      - fps
+      - cinematography
+      - aim
+      - orbit
+      - cutscene
+      - cinematic
+      - collision
+      - freelook
+      - cinemachine
+      - compose
+      - composition
+      - dolly
+      - track
+      - clearshot
+      - noise
+      - framing
+      - handheld
+      - lens
+      - impulse
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637578244570000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.cinemachine.git
+        revision: c12b97ec35ab5091c685e729b76980a69a6d39a1
+        path: 
     - packageId: com.unity.collab-proxy@1.5.7
       testable: 0
       isDirectDependency: 1
@@ -382,6 +746,233 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.vscode.git
         revision: b5ec9b38109e52b1b26597d521e4df75e042ebb9
+        path: 
+    - packageId: com.unity.postprocessing@3.1.1
+      testable: 0
+      isDirectDependency: 1
+      version: 3.1.1
+      source: 1
+      resolvedPath: E:\Unity\PersonalCasualProject\ProjectBubbleGum\Library\PackageCache\com.unity.postprocessing@3.1.1
+      assetPath: Packages/com.unity.postprocessing
+      name: com.unity.postprocessing
+      displayName: Post Processing
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.7
+        - 0.1.8
+        - 2.0.0-beta
+        - 2.0.1-beta
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.5-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.0.10-preview
+        - 2.0.11-preview
+        - 2.0.12-preview
+        - 2.0.13-preview
+        - 2.0.14-preview
+        - 2.0.15-preview
+        - 2.0.16-preview
+        - 2.0.17-preview
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.2.1
+        - 2.2.2
+        - 2.3.0
+        - 3.0.1
+        - 3.0.3
+        - 3.1.0
+        - 3.1.1
+        compatible:
+        - 2.3.0
+        - 3.0.1
+        - 3.0.3
+        - 3.1.0
+        - 3.1.1
+        verified: 3.1.1
+      dependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      resolvedDependencies:
+      - name: com.unity.modules.physics
+        version: 1.0.0
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637576678760000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/Graphics.git
+        revision: 075b452f2c4bf910a168632b3cedbd6835477ddd
+        path: 
+    - packageId: com.unity.probuilder@4.5.0
+      testable: 0
+      isDirectDependency: 1
+      version: 4.5.0
+      source: 1
+      resolvedPath: E:\Unity\PersonalCasualProject\ProjectBubbleGum\Library\PackageCache\com.unity.probuilder@4.5.0
+      assetPath: Packages/com.unity.probuilder
+      name: com.unity.probuilder
+      displayName: ProBuilder
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+        for in-scene level design, prototyping, collision meshes, all with on-the-fly
+        play-testing.
+
+
+        Advanced features include UV editing, vertex colors,
+        parametric shapes, and texture blending. With ProBuilder''s model export
+        feature it''s easy to tweak your levels in any external 3D modelling suite.'
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 3.0.0
+        - 3.0.1
+        - 3.0.2
+        - 3.0.3
+        - 3.0.6
+        - 3.0.8
+        - 3.0.9
+        - 3.10.1
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
+        - 4.0.5
+        - 4.1.0
+        - 4.1.2
+        - 4.2.1
+        - 4.2.2-preview.1
+        - 4.2.2-preview.2
+        - 4.2.3
+        - 4.2.4-preview.0
+        - 4.3.0-preview.0
+        - 4.3.0-preview.1
+        - 4.3.0-preview.2
+        - 4.3.0-preview.4
+        - 4.3.0-preview.6
+        - 4.3.0-preview.7
+        - 4.3.0-preview.8
+        - 4.3.0-preview.9
+        - 4.3.1
+        - 4.4.0-preview.1
+        - 4.4.0
+        - 4.5.0
+        - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
+        - 5.0.3
+        compatible:
+        - 4.0.2
+        - 4.0.3
+        - 4.0.4
+        - 4.0.5
+        - 4.1.0
+        - 4.1.2
+        - 4.2.1
+        - 4.2.2-preview.1
+        - 4.2.2-preview.2
+        - 4.2.3
+        - 4.2.4-preview.0
+        - 4.3.0-preview.0
+        - 4.3.0-preview.1
+        - 4.3.0-preview.2
+        - 4.3.0-preview.4
+        - 4.3.0-preview.6
+        - 4.3.0-preview.7
+        - 4.3.0-preview.8
+        - 4.3.0-preview.9
+        - 4.3.1
+        - 4.4.0-preview.1
+        - 4.4.0
+        - 4.5.0
+        - 5.0.0-pre.7
+        - 5.0.0-pre.10
+        - 5.0.1
+        - 5.0.3
+        verified: 4.5.0
+      dependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      resolvedDependencies:
+      - name: com.unity.settings-manager
+        version: 1.0.3
+      keywords:
+      - 3d
+      - model
+      - mesh
+      - modeling
+      - geometry
+      - shape
+      - cube
+      - blender
+      - max
+      - maya
+      - fbx
+      - obj
+      - level
+      - design
+      - block
+      - greybox
+      - graybox
+      - whitebox
+      - prototype
+      - probuilder
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637468491200000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.probuilder.git
+        revision: c0048d825082c4ae352d19ea8bb13d5f63cbcde7
         path: 
     - packageId: com.unity.test-framework@1.1.24
       testable: 0
@@ -2644,6 +3235,64 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ext.nunit.git
         revision: 29ea4d6504a5f58fb3a6934db839aa80ae6d9d88
         path: 
+    - packageId: com.unity.settings-manager@1.0.3
+      testable: 0
+      isDirectDependency: 0
+      version: 1.0.3
+      source: 1
+      resolvedPath: E:\Unity\PersonalCasualProject\ProjectBubbleGum\Library\PackageCache\com.unity.settings-manager@1.0.3
+      assetPath: Packages/com.unity.settings-manager
+      name: com.unity.settings-manager
+      displayName: Settings Manager
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: A framework for making any serializable field a setting, complete
+        with a pre-built settings interface.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        compatible:
+        - 0.1.0-preview.4
+        - 0.1.0-preview.8
+        - 1.0.0
+        - 1.0.1
+        - 1.0.2
+        - 1.0.3
+        verified: 1.0.3
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637300096300000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+        revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+        path: 
     - packageId: com.unity.nuget.newtonsoft-json@2.0.0
       testable: 0
       isDirectDependency: 0
@@ -2717,6 +3366,148 @@ m_PackageAssets:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
         revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+        path: 
+    - packageId: com.unity.scriptablebuildpipeline@1.15.2
+      testable: 0
+      isDirectDependency: 0
+      version: 1.15.2
+      source: 1
+      resolvedPath: E:\Unity\PersonalCasualProject\ProjectBubbleGum\Library\PackageCache\com.unity.scriptablebuildpipeline@1.15.2
+      assetPath: Packages/com.unity.scriptablebuildpipeline
+      name: com.unity.scriptablebuildpipeline
+      displayName: Scriptable Build Pipeline
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The Scriptable Build Pipeline moves the asset bundle build pipeline
+        to C#.  Use the pre-defined build flows, or create your own using the divided
+        up APIs.  This system improves build time, fixes incremental build, and provides
+        greater flexibility.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.0.5-preview
+        - 0.0.6-preview
+        - 0.0.8-preview
+        - 0.0.9-preview
+        - 0.0.10-preview
+        - 0.0.14-preview
+        - 0.0.15-preview
+        - 0.1.0-preview
+        - 0.2.0-preview
+        - 1.0.1-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.2.1-preview
+        - 1.3.5-preview
+        - 1.4.1-preview
+        - 1.5.0-preview
+        - 1.5.1
+        - 1.5.2
+        - 1.5.4
+        - 1.5.6
+        - 1.5.10
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.6.5-preview
+        - 1.7.2
+        - 1.7.3
+        - 1.8.2
+        - 1.8.4
+        - 1.8.6
+        - 1.9.0
+        - 1.10.0
+        - 1.11.1
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.0
+        - 1.14.1
+        - 1.15.1
+        - 1.15.2
+        - 1.16.1
+        - 1.17.0
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        compatible:
+        - 0.0.5-preview
+        - 0.0.6-preview
+        - 0.0.8-preview
+        - 0.0.9-preview
+        - 0.0.10-preview
+        - 0.0.14-preview
+        - 0.0.15-preview
+        - 0.1.0-preview
+        - 0.2.0-preview
+        - 1.0.1-preview
+        - 1.1.0-preview
+        - 1.1.1-preview
+        - 1.2.1-preview
+        - 1.3.5-preview
+        - 1.4.1-preview
+        - 1.5.0-preview
+        - 1.5.1
+        - 1.5.2
+        - 1.5.4
+        - 1.5.6
+        - 1.5.10
+        - 1.6.3-preview
+        - 1.6.4-preview
+        - 1.6.5-preview
+        - 1.7.2
+        - 1.7.3
+        - 1.8.2
+        - 1.8.4
+        - 1.8.6
+        - 1.9.0
+        - 1.10.0
+        - 1.11.1
+        - 1.11.2
+        - 1.12.0
+        - 1.13.1
+        - 1.14.0
+        - 1.14.1
+        - 1.15.1
+        - 1.15.2
+        - 1.16.1
+        - 1.17.0
+        - 1.18.0
+        - 1.19.0
+        - 1.19.1
+        verified: 1.15.2
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - build
+      - bundle
+      - bundles
+      - assetbundles
+      - cache
+      - server
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637473059170000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: https://github.cds.internal.unity3d.com/unity/Addressables.git
+        revision: c238142d6dd78f465fa645cb6b4671ab3472ec99
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
