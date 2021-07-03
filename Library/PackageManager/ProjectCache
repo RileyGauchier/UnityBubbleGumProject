@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637608715240462961
-    m_Hash: 3979579646
+      ticks: 637608832515083088
+    m_Hash: 3654808119
   m_LockFileStatus:
     m_FilePath: E:/Unity/PersonalCasualProject/ProjectBubbleGum/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637608715241009349
-    m_Hash: 3106650384
+      ticks: 637608832515093062
+    m_Hash: 1836771197
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
