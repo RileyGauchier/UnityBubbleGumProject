@@ -4,16 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    float _horizontalMove, _veritcalMove;
     [SerializeField] float _moveSpeed = 5f, _jumpForce = 10f;
 
-    CharacterController _playerCC;
-    Vector3 _moveDirection;
+    Rigidbody _rb;
 
     private void Awake()
     {
-        _playerCC = GetComponent<CharacterController>();
-        _playerCC.detectCollisions = true;
+        _rb = GetComponent<Rigidbody>();
+
     }
 
     private void FixedUpdate()
@@ -23,17 +21,22 @@ public class PlayerMovement : MonoBehaviour
 
     void PlayerCharacterWalkInputs()
     {
-        _veritcalMove = Input.GetAxis("Vertical");
-        _horizontalMove = Input.GetAxis("Horizontal");
-
-        Vector3 direction = new Vector3(_horizontalMove, 0, _veritcalMove);
-        Vector3 transformDirection = transform.TransformDirection(direction);
-
-        Vector3 flatMovement = _moveSpeed * Time.deltaTime * transformDirection;
-
-        _moveDirection = new Vector3(flatMovement.x, _moveDirection.y, flatMovement.z);
-
-        transform.position += _moveDirection;
+        if(Input.GetKey(KeyCode.W))
+        {
+            _rb.AddForce(_moveSpeed * Vector3.forward);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            _rb.AddForce(_moveSpeed * -Vector3.forward);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            _rb.AddForce(_moveSpeed * Vector3.right);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            _rb.AddForce(_moveSpeed * -Vector3.right);
+        }
     }
 
     void PlayerCharacterJump()
